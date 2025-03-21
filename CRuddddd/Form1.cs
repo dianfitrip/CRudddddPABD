@@ -153,6 +153,7 @@ namespace CRuddddd
 
         }
 
+        //Fungsi ini kemungkinan digunakan untuk mengedit atau memperbarui data mahasiswa yang sudah ada di database.
         private void btnUbah_Click(object sender, EventArgs e)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
